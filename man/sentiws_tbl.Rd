@@ -3,7 +3,7 @@
 \docType{data}
 \name{sentiws_tbl}
 \alias{sentiws_tbl}
-\title{SentiWS data}
+\title{SentiWS Data}
 \format{
 \subsection{\code{who}}{
 

@@ -1,6 +1,6 @@
 amazon_review_tbl <- 
   fs::dir_ls(
-    path=here::here("data_raw/input/mteb-amazon_reviews_multi/de/"),
+    path=here::here("data-raw/input/mteb-amazon_reviews_multi/de/"),
     glob="*/*.jsonl"
   ) |> 
   purrr::map_dfr(function(.path){
@@ -18,4 +18,4 @@ amazon_review_tbl <-
       tibble::as_tibble()
   })
   
-usethis::use_data(amazon_review_tbl)
+usethis::use_data(amazon_review_tbl, overwrite=TRUE, compress="gzip")

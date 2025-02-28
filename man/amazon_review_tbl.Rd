@@ -3,7 +3,7 @@
 \docType{data}
 \name{amazon_review_tbl}
 \alias{amazon_review_tbl}
-\title{Amazon Review data}
+\title{Amazon Review Data}
 \format{
 \subsection{\code{who}}{
 
