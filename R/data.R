@@ -61,3 +61,12 @@
 #' }
 #' @source <https://www.who.int/teams/global-tuberculosis-programme/data>
 "support_mail_tbl"
+
+#' German Stopwords
+#'
+#' From NLTK
+#'
+#' @format ## `sword_vec`
+#' ...
+#' @source <https://example.org>
+"sword_vec"
